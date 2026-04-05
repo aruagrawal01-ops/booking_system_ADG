@@ -20,19 +20,6 @@ Features:
 * Passenger summary
 * Booking history storage (file-based)
 
-Project Structure:
-railway_booking/
-│
-├── main.py          # CLI interface
-├── routes.py        # Route data
-├── fare.py          # Fare calculation logic
-├── passenger.py     # Passenger class
-├── utils.py         # Input validation & helpers
-├── booking.py       # Promo + summary
-├── history.py       # Booking history storage
-├── time_calc.py     # Travel time calculation
-└── history.txt      # Stored booking records
-
 How to Run
 1. Make sure Python 3 is installed
 2. Navigate to project folder:
